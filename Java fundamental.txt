@@ -1,0 +1,84 @@
+﻿Assignment : Fundamentals of Java Assignment
+Q.1.Statically Typed:
+* In statically typed languages, variable types are checked at compile-time.
+* You must declare the data type of a variable before using it.
+* Errors related to type are caught early.
+* Example Languages: Java, C, C++.
+Example:
+int number = 10; // 'number' must be an integer
+ number = "text"; // Error: Type mismatch
+
+Dynamically Typed:
+* In dynamically typed languages, variable types are determined at runtime.
+* You do not need to explicitly declare the type of a variable.
+* Errors related to type may only be found during execution.
+* Example Languages: Python, JavaScript.
+
+
+Q.2. A variable is a container for storing data values.
+* In Java, a variable has a:
+   * Name (identifier),
+   * Type (data type, e.g., int, String),
+   * Scope (where it can be accessed), and
+   * Value (data it holds).
+Example:
+int age = 25; // 'age' is a variable of type int, with value 25
+
+Q.3.To assign a value to a variable, use the assignment operator (=):
+Example : int num = 5;//here we used assignment operator.
+
+Q.4.Java has 8 primitive data types that store simple values:
+1. byte: 1 byte, stores integers (-128 to 127).
+2. short: 2 bytes, stores integers (-32,768 to 32,767).
+3. int: 4 bytes, stores integers (-2^31 to 2^31-1).
+4. long: 8 bytes, stores large integers (-2^63 to 2^63-1).
+5. float: 4 bytes, stores decimal numbers (up to ~7 decimal places).
+6. double: 8 bytes, stores decimal numbers (up to ~16 decimal places).
+7. char: 2 bytes, stores a single character (e.g., 'a').
+8. boolean: 1 bit, stores true or false.
+Example:
+int age = 30;
+boolean isJavaFun = true;
+char grade = 'A';
+double salary = 45000.75;
+
+
+Q.5.Q.6.Java provides several types of operators:
+1. Arithmetic Operators: +, -, *, /, %
+2. Relational/Comparison Operators: ==, !=, >, <, >=, <=
+3. Logical Operators: &&, ||, !
+4. Bitwise Operators: &, |, ^, ~, <<, >>, >>>
+5. Assignment Operators: =, +=, -=, *=, /=, %=
+6. Unary Operators: +, -, ++, --, !
+7. Ternary Operator: ?:
+8. Instanceof Operator: instanceof
+Example:
+int a = 10, b = 20;
+int sum = a + b; // Arithmetic
+boolean isEqual = a == b; // Comparison
+boolean isTrue = (a < b) && (b > 15); // Logical
+Q.7 These are unary operators that increase or decrease a value by 1.
+1. Increment (++):
+   * Pre-increment (++variable): Increments the value first, then uses it.
+   * Post-increment (variable++): Uses the value first, then increments it.
+2. Decrement (--):
+   * Pre-decrement (--variable): Decrements the value first, then uses it.
+   * Post-decrement (variable--): Uses the value first, then decrements it.
+Examples:
+int x = 5;
+
+
+// Pre-increment
+int pre = ++x; // x becomes 6, pre is 6
+
+
+// Post-increment
+int post = x++; // post is 6, x becomes 7
+
+
+// Pre-decrement
+int preDec = --x; // x becomes 6, preDec is 6
+
+
+// Post-decrement
+int postDec = x--; // postDec is 6, x becomes 5
